@@ -1,0 +1,119 @@
+body,
+h1,
+h2,
+h3,
+h4,
+article,
+form,
+div,
+ul,
+li,
+p,
+span,
+header,
+figure,
+figcaption,
+img,
+aside,
+footer{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #8c8c8c;
+    font-family: "微软雅黑";
+    
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-size: 1.5rem;
+    padding:0.3rem;
+}
+h2{
+    font-size: 1.3rem;
+    padding:0.3rem 0 0.5rem 0.3rem;
+}
+span{
+    font-size: 0.8rem;
+    padding:0.3rem;
+    color:  #595959;
+}
+p{
+    font-size: 1rem;
+    padding: 0.3rem;
+    line-height: 150%;
+}
+header{
+    overflow: hidden; /*什么意思？*/
+    background-color:#262626; 
+}
+header h1{
+    width: 16rem;
+    
+    margin-left:1rem;
+    padding:0.5rem;
+    display: inline-block;
+    color:#f2f2f2;
+}
+nav{
+    float:right;
+}
+nav ul{
+    margin-right:1rem;
+}
+nav li{
+   display: inline-block;
+   padding:0.8rem;
+   text-align: center;
+}
+nav li a{
+    color:#f2f2f2;
+    text-decoration: none;
+}
+
+article,aside{
+    margin: 0 auto;
+    width:62.5rem;
+    height:auto;
+    padding:0.7rem;
+    background-color: #ffffff;
+    margin-top:1rem;
+}
+article p {
+    text-indent: 2rem;
+}
+aside h2{
+    font-size: 1.2rem;
+}
+aside form{
+    display: block;
+    padding: 0.3rem;
+    margin:0 auto;
+    width:50%;
+    
+}
+aside form ul{
+
+}
+aside form ul li{
+    display: block;
+}
+aside form ul li label.title{
+    display: inline-block;
+    width:30%;
+    text-align: right;
+}
+aside button{
+    background-color: #6666ff;
+    width:30rem;
+    border:none;
+    cursor: pointer;
+    padding: 0.3rem;
+    margin: 0.3rem;
+}
+footer{
+    padding:0.7rem;
+    text-align: center;
+}
